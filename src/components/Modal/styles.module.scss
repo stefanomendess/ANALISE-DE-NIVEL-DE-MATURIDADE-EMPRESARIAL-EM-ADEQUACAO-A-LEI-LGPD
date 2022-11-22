@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: fit-content;
+
+    svg {
+      display: block;
+    }
+  }
+}
+
+.content {
+  padding: 1rem 0 2rem;
+}

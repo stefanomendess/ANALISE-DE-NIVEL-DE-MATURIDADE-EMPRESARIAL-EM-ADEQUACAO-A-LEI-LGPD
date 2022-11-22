@@ -1,0 +1,21 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+  text-align: center;
+  gap: 1rem;
+
+  strong {
+    color: #c00;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 1rem;
+}
